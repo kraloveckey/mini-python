@@ -1,0 +1,51 @@
+{
+    "server": [
+        {
+            "address": "dc1.example.com",
+            "port": 636,
+            "ssl": true
+        },
+        {
+            "address": "dc2.example.com",
+            "port": 636,
+            "ssl": true
+        },
+        {
+            "address": "dc3.example.com",
+            "port": 636,
+            "ssl": true
+        }
+    ],
+    "domain": "example.com",
+    "use-starttls": true,
+
+    "username": "johndoe",
+    "use-kerberos": true,
+
+    "ldap-attribute-password": [
+        "msLAPS-EncryptedPassword",
+        "msLAPS-Password",
+        "ms-Mcs-AdmPwd"
+    ],
+    "ldap-attribute-password-expiry": [
+        "msLAPS-PasswordExpirationTime",
+        "ms-Mcs-AdmPwdExpirationTime"
+    ],
+    "ldap-attribute-password-history": "msLAPS-EncryptedPasswordHistory",
+    "ldap-attributes": {
+        "Operating System": "operatingSystem",
+        "Last Logon Timestamp": "lastLogonTimestamp",
+        "Administrator Password": [
+            "msLAPS-EncryptedPassword",
+            "msLAPS-Password",
+            "ms-Mcs-AdmPwd"
+        ],
+        "Password Expiration Date": [
+            "msLAPS-PasswordExpirationTime",
+            "ms-Mcs-AdmPwdExpirationTime"
+        ],
+        "Administrator Password History": "msLAPS-EncryptedPasswordHistory"
+    },
+
+    "connect-username": "administrator"
+}
