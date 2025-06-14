@@ -1,7 +1,5 @@
 # mini-python
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/kraloveckey)
-
 ---
 
 [`DNSBL/dnsbl.py`](DNSBL/dnsbl.py) - check if domain address or IP address has got in the DNS blacklists.
@@ -27,3 +25,7 @@
 [`PasswordGenerator/passgen.py`](PasswordGenerator/passgen.py) - create a random secure passwords using generator tool.
 
 ---
+
+<a href="https://www.paypal.com/donate/?hosted_button_id=GWWLEXEF3XL92">
+  <img src="https://raw.githubusercontent.com/kraloveckey/kraloveckey/refs/heads/main/.assets/paypal-donate-button.png" alt="Donate with PayPal" width="225" height="100"/>
+</a>
