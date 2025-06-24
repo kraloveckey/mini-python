@@ -1,0 +1,39 @@
+{
+    "COMMENT": "If you want to use static domain and servers, please remove the '-EXAMPLE' from the following setting items and enter your custom values. Otherwise, laps-runner will try to auto discover the settings via DNS.",
+    "server-EXAMPLE": [
+        {
+            "address": "dc1.example.com",
+            "port": 389,
+            "ssl": false
+        },
+        {
+            "address": "dc2.example.com",
+            "port": 389,
+            "ssl": false
+        },
+        {
+            "address": "dc3.example.com",
+            "port": 389,
+            "ssl": false
+        }
+    ],
+    "domain-EXAMPLE": "example.com",
+    "use-starttls": true,
+
+    "cred-cache-file": "/tmp/laps.temp",
+    "client-keytab-file": "/etc/krb5.keytab",
+
+    "native-laps": true,
+    "security-descriptor": null,
+    "history-size": 0,
+    "ldap-attribute-password": "msLAPS-Password",
+    "ldap-attribute-password-history": "msLAPS-EncryptedPasswordHistory",
+    "ldap-attribute-password-expiry": "msLAPS-PasswordExpirationTime",
+
+    "hostname": null,
+
+    "password-change-user": "root",
+    "password-days-valid": 30,
+    "password-length": 15,
+    "password-alphabet": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+}

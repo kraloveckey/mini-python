@@ -1,0 +1,6 @@
+# For work with DNS servers.
+dnspython
+# For download the list of Cloudflare ranges.
+requests
+# Colorful output.
+colorama

@@ -1,0 +1,11 @@
+Package: laps-client-runner
+Version: 1.0.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: python3, python3-pip, python3-gssapi, python3-dnspython, krb5-user, libkrb5-dev
+Conflicts: laps-client, laps-client-gui, laps-client-cli
+Maintainer: kraloveckey <kralovekey@gmail.com>
+Description: Linux implementation of the Local Administrator Password Solution (LAPS) from Microsoft.
+ This package contains the LAPS runner for automatically changing the local admin password. In order to use the runner, the machine needs to be joined into your domain using Samba 'net ads join', PBIS 'domainjoin-cli join' or 'adcli join'. Please adjust the config file /etc/laps-runner.ini and check if LDAP access is working by executing 'laps-runner -f'.
+
